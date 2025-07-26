@@ -2,6 +2,9 @@
 
 Este proyecto es un simulador 3D del clásico juego Scalextric, desarrollado desde cero utilizando la API gráfica de bajo nivel **Vulkan**. El objetivo principal ha sido reproducir la esencia del Scalextric físico en un entorno digital interactivo, con un enfoque centrado tanto en la fidelidad gráfica como en la física básica del juego.
 
+![Uploading image.png…]()
+
+
 ## Índice
 
 - [Objetivos](#-objetivos)
