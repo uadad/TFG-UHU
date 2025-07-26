@@ -55,7 +55,7 @@ Este proyecto es un simulador 3D del clásico juego Scalextric, desarrollado des
 - Modelos `.obj` + `.mtl` importados mediante un parser adaptado.
 - Cada coche está compuesto por piezas (`CAPiece`) organizadas en `CAObject`.
 
-<img width="634" height="844" alt="image" src="https://github.com/user-attachments/assets/74f4359a-9332-4549-bce0-8193aedd5a6e" />
+         <img width="634" height="844" alt="image" src="https://github.com/user-attachments/assets/74f4359a-9332-4549-bce0-8193aedd5a6e" />
 
 ---
 
@@ -66,7 +66,7 @@ Este proyecto es un simulador 3D del clásico juego Scalextric, desarrollado des
 - Las pistas se colocan de forma secuencial con transformaciones acumulativas.
 - Tipos de curva: interior, estándar, exterior, super exterior (izquierda/derecha).
 
-<img width="615" height="891" alt="image" src="https://github.com/user-attachments/assets/e454baa5-13d6-4bcf-827a-e3a74edff857" />
+       <img width="615" height="891" alt="image" src="https://github.com/user-attachments/assets/e454baa5-13d6-4bcf-827a-e3a74edff857" />
 
 ---
 
@@ -87,7 +87,7 @@ Donde:
 - `-carX`: Indica el coche del segundo jugador.
 - `-timeZ`: Duración de la partida (en segundos).
 
-### 🏁 Circuitos disponibles
+### Circuitos disponibles
 
 | Argumento       | Clase cargada           |
 |------------------|--------------------------|
