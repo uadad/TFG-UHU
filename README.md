@@ -1,7 +1,8 @@
 # Simulador de Scalextric con la API Vulkan
 
 Este proyecto es un simulador 3D del clásico juego Scalextric, desarrollado desde cero utilizando la API gráfica de bajo nivel **Vulkan**. El objetivo principal ha sido reproducir la esencia del Scalextric físico en un entorno digital interactivo, con un enfoque centrado tanto en la fidelidad gráfica como en la física básica del juego.
-                     <img width="732" height="582" alt="image" src="https://github.com/user-attachments/assets/40a92349-24e6-4d4c-b8a5-cc0cc6a6f1e6" />
+                                                                                                              
+  <img width="732" height="582" alt="image" src="https://github.com/user-attachments/assets/40a92349-24e6-4d4c-b8a5-cc0cc6a6f1e6" />
 
 ## Índice
 
