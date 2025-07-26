@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{672567e9-678b-4c55-8626-7b6de329ce27}</ProjectGuid>
+    <RootNamespace>TFG</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\ComputerAnimation\Tools\GLFW\include;C:\ComputerAnimation\Tools\GLM\Include;C:\VulkanSDK\1.3.216.0\Include;C:\ComputerAnimation\Tools\STBI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\ComputerAnimation\Tools\GLFW\lib-vc2019;C:\VulkanSDK\1.3.216.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CAArco_final.h" />
+    <ClInclude Include="CAApplication.h" />
+    <ClInclude Include="CAEtiqueta.h" />
+    <ClInclude Include="CAEtiqueta_Abstracta.h" />
+    <ClInclude Include="CAFigure.h" />
+    <ClInclude Include="CAGround.h" />
+    <ClInclude Include="CAIndexBuffer.h" />
+    <ClInclude Include="CALight.h" />
+    <ClInclude Include="CAMaterial.h" />
+    <ClInclude Include="CAModel.h" />
+    <ClInclude Include="CAPipeline.h" />
+    <ClInclude Include="CAScene.h" />
+    <ClInclude Include="CASkybox.h" />
+    <ClInclude Include="CATexture.h" />
+    <ClInclude Include="CATransformFigure.h" />
+    <ClInclude Include="CATransformSkybox.h" />
+    <ClInclude Include="CAUniformBuffer.h" />
+    <ClInclude Include="CAVertexBuffer.h" />
+    <ClInclude Include="CAVertexFigure.h" />
+    <ClInclude Include="CAVertexSkybox.h" />
+    <ClInclude Include="CAVulkanState.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_1.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_2.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_293.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_3.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_380.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_4.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_946.h" />
+    <ClInclude Include="Clases_Circuitos\CACircuito_jerez.h" />
+    <ClInclude Include="Clases_Circuitos\CAPista.h" />
+    <ClInclude Include="Clases_Circuitos\CAPista_1.h" />
+    <ClInclude Include="Clases_Circuitos\CAPista_2.h" />
+    <ClInclude Include="Clases_Circuitos\CAPista_3.h" />
+    <ClInclude Include="Clases_Circuitos\CAPista_CambioCarril.h" />
+    <ClInclude Include="Clases_Circuitos\CAPista_f.h" />
+    <ClInclude Include="Clases_coches\CAEstado_Coche.h" />
+    <ClInclude Include="Clases_coches\CAObject.h" />
+    <ClInclude Include="Clases_coches\CAPiece.h" />
+    <ClInclude Include="Clases_coches\coches\CAFerrari.h" />
+    <ClInclude Include="Clases_coches\coches\CAFerrari_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CAForceIndia.h" />
+    <ClInclude Include="Clases_coches\coches\CAForceIndia_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CAHrt.h" />
+    <ClInclude Include="Clases_coches\coches\CAHrt_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CALotus.h" />
+    <ClInclude Include="Clases_coches\coches\CALotus_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CAMclaren.h" />
+    <ClInclude Include="Clases_coches\coches\CAMclaren_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CAMercedes.h" />
+    <ClInclude Include="Clases_coches\coches\CAMercedes_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CARedbull.h" />
+    <ClInclude Include="Clases_coches\coches\CARedbull_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CARenault.h" />
+    <ClInclude Include="Clases_coches\coches\CARenault_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CASauber.h" />
+    <ClInclude Include="Clases_coches\coches\CASauber_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CATororosso.h" />
+    <ClInclude Include="Clases_coches\coches\CATororosso_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CAVirgin.h" />
+    <ClInclude Include="Clases_coches\coches\CAVirgin_pieces.h" />
+    <ClInclude Include="Clases_coches\coches\CAWilliams.h" />
+    <ClInclude Include="Clases_coches\coches\CAWilliams_pieces.h" />
+    <ClInclude Include="Includes_Scene.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAArco_final.cpp" />
+    <ClCompile Include="CAApplication.cpp" />
+    <ClCompile Include="CAEtiqueta.cpp" />
+    <ClCompile Include="CAEtiqueta_Abstracta.cpp" />
+    <ClCompile Include="CAFigure.cpp" />
+    <ClCompile Include="CAGround.cpp" />
+    <ClCompile Include="CAModel.cpp" />
+    <ClCompile Include="CAScene.cpp" />
+    <ClCompile Include="CASkybox.cpp" />
+    <ClCompile Include="CAVulkanState.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_1.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_2.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_293.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_3.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_380.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_4.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_946.cpp" />
+    <ClCompile Include="Clases_Circuitos\CACircuito_jerez.cpp" />
+    <ClCompile Include="Clases_Circuitos\CAPista.cpp" />
+    <ClCompile Include="Clases_Circuitos\CAPista_1.cpp" />
+    <ClCompile Include="Clases_Circuitos\CAPista_2.cpp" />
+    <ClCompile Include="Clases_Circuitos\CAPista_3.cpp" />
+    <ClCompile Include="Clases_Circuitos\CAPista_CambioCarril.cpp" />
+    <ClCompile Include="Clases_Circuitos\CAPista_f.cpp" />
+    <ClCompile Include="Clases_coches\CAObject.cpp" />
+    <ClCompile Include="Clases_coches\CAPiece.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAFerrari.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAFerrari_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAForceIndia.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAForceIndia_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAHrt.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAHrt_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CALotus.cpp" />
+    <ClCompile Include="Clases_coches\coches\CALotus_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAMclaren.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAMclaren_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAMercedes.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAMercedes_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CARedbull.cpp" />
+    <ClCompile Include="Clases_coches\coches\CARedbull_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CARenault.cpp" />
+    <ClCompile Include="Clases_coches\coches\CARenault_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CASauber.cpp" />
+    <ClCompile Include="Clases_coches\coches\CASauber_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CATororosso.cpp" />
+    <ClCompile Include="Clases_coches\coches\CATororosso_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAVirgin.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAVirgin_pieces.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAWilliams.cpp" />
+    <ClCompile Include="Clases_coches\coches\CAWilliams_pieces.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\frag_skybox.spv" />
+    <None Include="shaders\frag_tex.spv" />
+    <None Include="shaders\vert_skybox.spv" />
+    <None Include="shaders\vert_tex.spv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TFG.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

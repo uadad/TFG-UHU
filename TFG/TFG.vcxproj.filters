@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Clases_Circuito">
+      <UniqueIdentifier>{2f77ecae-bcee-4d2c-acde-d5d95b476016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Clases_coches">
+      <UniqueIdentifier>{c335fe90-f427-4c2a-ae43-322bcf77ba75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Clases_coches\coches">
+      <UniqueIdentifier>{5a34a501-1137-403a-abf0-2a55f816389f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Clases_Circuito">
+      <UniqueIdentifier>{47795d53-dcb1-4eca-b14c-6eb6c8064b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Clases_coches">
+      <UniqueIdentifier>{a50afe4b-306c-4385-a2fd-346b2a143f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Clases_coches\coches">
+      <UniqueIdentifier>{2541e5a6-5d30-47aa-bf7b-4438fbf69cd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAApplication.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAFigure.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGround.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAIndexBuffer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CALight.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAMaterial.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAModel.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAPipeline.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAScene.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CASkybox.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CATexture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CATransformFigure.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CATransformSkybox.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAUniformBuffer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAVertexBuffer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAVertexFigure.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAVertexSkybox.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAVulkanState.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes_Scene.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_1.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_2.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_3.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_293.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_380.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_946.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_jerez.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CAPista.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CAPista_1.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CAPista_2.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CAPista_3.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CAPista_f.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\CAObject.h">
+      <Filter>Archivos de encabezado\Clases_coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\CAPiece.h">
+      <Filter>Archivos de encabezado\Clases_coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CARedbull.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CARedbull_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CAPista_CambioCarril.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\CAEstado_Coche.h">
+      <Filter>Archivos de encabezado\Clases_coches</Filter>
+    </ClInclude>
+    <ClInclude Include="CAEtiqueta_Abstracta.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CAEtiqueta.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_Circuitos\CACircuito_4.h">
+      <Filter>Archivos de encabezado\Clases_Circuito</Filter>
+    </ClInclude>
+    <ClInclude Include="CAArco_final.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAForceIndia.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAForceIndia_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAHrt.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAHrt_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CALotus.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CALotus_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAMclaren.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAMclaren_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAMercedes.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAMercedes_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CARenault.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CARenault_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CASauber.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CASauber_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CATororosso.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CATororosso_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAVirgin.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAVirgin_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAWilliams.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAWilliams_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAFerrari.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+    <ClInclude Include="Clases_coches\coches\CAFerrari_pieces.h">
+      <Filter>Archivos de encabezado\Clases_coches\coches</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Clases_coches\coches\CARedbull.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CARedbull_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\CAObject.cpp">
+      <Filter>Archivos de origen\Clases_coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\CAPiece.cpp">
+      <Filter>Archivos de origen\Clases_coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_1.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_2.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_3.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_293.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_380.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_946.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_jerez.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CAPista.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CAPista_1.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CAPista_2.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CAPista_3.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CAPista_f.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="CAApplication.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CAFigure.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGround.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CAModel.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CAScene.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CASkybox.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CAVulkanState.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CAPista_CambioCarril.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="CAEtiqueta_Abstracta.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CAEtiqueta.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_Circuitos\CACircuito_4.cpp">
+      <Filter>Archivos de origen\Clases_Circuito</Filter>
+    </ClCompile>
+    <ClCompile Include="CAArco_final.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAForceIndia.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAForceIndia_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAHrt.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAHrt_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CALotus.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CALotus_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAMclaren.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAMclaren_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAMercedes.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAMercedes_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CARenault.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CARenault_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CASauber.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CASauber_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CATororosso.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CATororosso_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAVirgin.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAVirgin_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAWilliams.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAWilliams_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAFerrari.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+    <ClCompile Include="Clases_coches\coches\CAFerrari_pieces.cpp">
+      <Filter>Archivos de origen\Clases_coches\coches</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\frag_skybox.spv" />
+    <None Include="shaders\vert_skybox.spv" />
+    <None Include="shaders\vert_tex.spv" />
+    <None Include="shaders\frag_tex.spv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TFG.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
